@@ -1,0 +1,141 @@
+body {
+  background: white;
+}
+
+.flex-container {
+  display: relative;
+  justify-content: center;
+  align-items: left;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-left: 350px;
+}
+
+.flex-container-second {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-left: 550px;
+}
+
+.title-container {
+  font-family: futura;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  margin-left: 475px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container-back {
+  font-family: futura;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  margin-left: 475px;
+  justify-content: center;
+}
+
+#backtitle {
+  justify-content: center;
+}
+
+a {
+  align-items: center;
+  text-align: center;
+  margin-left: 150px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  width: 400px;
+  height: 132px;
+  margin: 50px;
+  background: #E8E5F5;
+  border-radius: 100px;
+  box-shadow: 3px 3px 3px #c9c9c9;s
+  transition-duration: .4s;
+}
+
+a:hover {
+  transform: scale(1.15);
+  transition-duration: .4s;
+}
+
+.red-left {
+  width: 79px;
+  height: 85px;
+  background: #ED4343;
+}
+
+.orange-left {
+  width: 79px;
+  height: 85px;
+  background: #F7AD49;
+}
+
+.yellow-left {
+  width: 79px;
+  height: 85px;
+  background: #FDFD3F;
+}
+
+.green-left {
+  width: 79px;
+  height: 85px;
+  background: #3AE83A;
+}
+
+.blue-left {
+  width: 79px;
+  height: 85px;
+  background: #386DFF;
+}
+
+.purple-left {
+  width: 79px;
+  height: 85px;
+  background: #A831FF;
+}
+
+.red-right {
+  width: 79px;
+  height: 85px;
+  background: #ED4343;
+}
+
+.orange-right {
+  width: 79px;
+  height: 85px;
+  background: #F7AD49;
+}
+
+.yellow-right {
+  width: 79px;
+  height: 85px;
+  background: #FDFD3F;
+}
+
+.green-right {
+  width: 79px;
+  height: 85px;
+  background: #3AE83A;
+}
+
+.blue-right {
+  width: 79px;
+  height: 85px;
+  background: #386DFF;
+}
+
+.purple-right {
+  width: 79px;
+  height: 85px;
+  background: #A831FF;
+}

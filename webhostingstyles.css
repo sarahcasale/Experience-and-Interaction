@@ -1,0 +1,92 @@
+.home-page {
+  background-color: #A0A0A0;
+}
+
+#title {
+  font-family: futura;
+  font-size: 55px;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  color: white;
+  text-shadow: 2px 2px 2px #c9c9c9;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 286px;
+  height: 132px;
+  margin: 50px;
+  background: white;
+  border-radius: 100px;
+  box-shadow: 3px 3px 3px #c9c9c9;
+
+  font-family: futura;
+  font-size: 40px;
+  color: #c9c9c9;
+  text-decoration: none;
+  transition-duration: .4s;
+}
+
+a:hover {
+  transform: scale(1.15);
+  transition-duration: .4s;
+  text-decoration: none;
+}
+
+.assignment-page {
+  background: white;
+}
+
+#first, #second, #third,
+#fourth, #fifth, #sixth, #seventh, #eighth {
+  position: relative;
+  background-color:  #c9c9c9;
+  color: white;
+  align-items: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.assignment3-page {
+  margin-top: 250px;
+}
+
+#first3, #second3, #third3 {
+  background-color:  #c9c9c9;
+  color: white;
+}
+
+.assignment4-page {
+  margin-top: 250px;
+  margin-left: 200px;
+}
+
+#first4, #second4 {
+  text-align: center;
+  background-color:  #c9c9c9;
+  color: white;
+}
+
+#first8, #second8 {
+  text-align: center;
+  background-color:  #c9c9c9;
+  color: white;
+}
+
+.assignment8-page {
+  margin-top: 250px;
+}
